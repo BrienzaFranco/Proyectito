@@ -1,9 +1,17 @@
+body{
+    background-color: rgb(226, 187, 230);
+}
+
 .top-banner {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #ffc0cb;
 }
 
 .footer {
-    display: flex;
+    box-sizing: border-box;
+    display: block;
+    border-top: 1px solid #e6e6e6;
+    background-color: palevioletred;
 }

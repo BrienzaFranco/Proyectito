@@ -1,0 +1,21 @@
+.container-titles {
+    background-color:  lightsalmon;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 90%;
+    margin: 0 auto;
+    justify-items: center;
+}
+
+.container-titles div {
+    background: lightblue;
+    border: 2px solid #000;
+    border-radius: 6px;
+    margin: 10px;
+    max-width: 450px;
+    max-height: 300px;
+    width: 50vh;
+    height: 30vh;
+}
