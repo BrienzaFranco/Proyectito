@@ -28,9 +28,12 @@ body{
     margin: 30px;
     box-sizing: border-box;
     display: block;
-    color: whitesmoke ;
     border-top: 1px solid #e6e6e6;
     background-color: rgb(69, 0, 23);
+}
+
+.footer-content {
+    color: white;
 }
 
 .Gianee{display:none}

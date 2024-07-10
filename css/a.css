@@ -1,0 +1,15 @@
+a:link {
+    color: #ffffff; /* Color para los enlaces no visitados */
+}
+
+a:visited {
+    color: #cccccc; /* Color para los enlaces visitados */
+}
+
+a:hover {
+    color: #ffcc00; /* Color para los enlaces cuando el mouse pasa por encima */
+}
+
+a:active {
+    color: #ff0000; /* Color para los enlaces cuando se están activando (clic) */
+}
