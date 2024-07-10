@@ -2,6 +2,7 @@ body{
     background-color: rgb(226, 187, 230);
     max-width: 90%;
     margin: 0 auto;
+    padding-top: 10px;
 }
 
 @media (min-width: 1024px) { /* no celulares */
@@ -9,7 +10,9 @@ body{
     max-width: 80%;}
 }
     
-
+.container {
+    border-radius: 20px;
+}
 .top-banner {
     display: flex;
     overflow: hidden;
@@ -18,12 +21,16 @@ body{
     align-items: center;
     background-color: #ffc0cb;
     max-height: 30vh;
+    border-radius: 30px;
 }
 
 .footer {
     margin: 30px;
     box-sizing: border-box;
     display: block;
+    color: whitesmoke ;
     border-top: 1px solid #e6e6e6;
-    background-color: palevioletred;
+    background-color: rgb(69, 0, 23);
 }
+
+.Gianee{display:none}
