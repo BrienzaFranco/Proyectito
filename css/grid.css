@@ -6,13 +6,15 @@
 
 .container {
     display: grid;
-    gap: 15px;
+    gap: 7px;
     overflow: hidden;
     box-sizing: border-box;
     grid-template-areas:
 
     "topbanner topbanner topbanner"
-    "unas remocion deco"
+    "unas unas unas"
+    "remocion remocion remocion"
+    "deco deco deco"
     "footer footer footer"
     
 ;}
@@ -28,4 +30,13 @@
         "footer footer footer"
         
     ;}
+}
+
+@media (min-width: 800px) {
+    .bannerimg {
+        object-fit:fill;
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+    }
 }

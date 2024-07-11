@@ -4,6 +4,7 @@ body{
     max-width: 90%;
     margin: 0 auto;
     padding-top: 10px;
+    font-family: 'Poppins';font-size: 22px;
 }
 
 /* rgba(255,223,186,1): Un tono suave de durazno, para comenzar el gradiente de manera ligera.
@@ -16,7 +17,7 @@ body{
 .top-banner {
     display: flex;
     overflow: hidden;
-    margin: 15px;
+    margin-top: 1%;
     justify-content: center;
     align-items: center;
     background-color: #ffc0cb;
@@ -25,9 +26,16 @@ body{
     max-height: 175px;
     max-width: 1000px;
     border-radius: 30px;
-    place-self: center; /* Asegura que el contenedor se centre dentro de su celda de la grid */
+    place-self: center;
 }
-    
+
+.bannerimg {
+    object-fit:cover;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+
 .footer {
     margin: 30px;
     box-sizing: border-box;
@@ -48,22 +56,43 @@ body{
         border-radius: 20px;
 }
 
-.unas, .deco, .remocion {
+.titles {
+    place-self: center;
+
     background: linear-gradient(45deg, 
     rgba(251, 173, 173, 0.6) 0%,   /* Blanco con transparencia del 60% */
     rgba(252, 252, 252, 0.4) 50%,  /* Gris claro con transparencia del 40% */
     rgba(234, 255, 2, 0.2) 100%  /* Gris más oscuro con transparencia del 20% */
     );
+
+    text-align: justify;
     border-radius: 10px; /* Borde redondeado, ajusta según sea necesario */
     padding: 15px; /* Espaciado interno */
     max-width: 70%; /* Ajusta el ancho máximo del elemento */
     margin: 10px auto;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Sombra ligera */
 }
 
+.title{
+    text-align: left;
+}
+.price {
+    text-align: right;
+}
+.boton {
+    background-color: #ffc0cb;
+    border-color: yellow;
+    border-radius: 10px;
+    
+}
+
+
+.footer {
+    border-radius: 10px;
+    border: 1px solid #ffffff4a;
+}
 .footer-content {
     color: white;
-    
 }
 
 .Gianee{display:none}
