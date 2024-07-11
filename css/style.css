@@ -4,24 +4,27 @@ body{
     margin: 0 auto;
     padding-top: 10px;
 }
-
-@media (min-width: 1024px) { /* no celulares */
-    body{
-    max-width: 80%;}
-}
     
 .container {
+    width:100%;
+    margin: auto 0px;
+    background-color: antiquewhite;
     border-radius: 20px;
 }
+
 .top-banner {
     display: flex;
     overflow: hidden;
-    margin: 30px;
+    margin: 15px;
     justify-content: center;
     align-items: center;
     background-color: #ffc0cb;
-    max-height: 30vh;
+    height: 95%;
+    width: 95%;
+    max-height: 175px;
+    max-width: 1000px;
     border-radius: 30px;
+    place-self: center; /* Asegura que el contenedor se centre dentro de su celda de la grid */
 }
 
 .footer {

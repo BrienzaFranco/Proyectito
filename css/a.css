@@ -3,13 +3,13 @@ a:link {
 }
 
 a:visited {
-    color: #cccccc; /* Color para los enlaces visitados */
+    color: #ffffe4; /* Color para los enlaces visitados */
 }
 
 a:hover {
-    color: #ffcc00; /* Color para los enlaces cuando el mouse pasa por encima */
+    color: #e576d3; /* Color para los enlaces cuando el mouse pasa por encima */
 }
 
 a:active {
-    color: #ff0000; /* Color para los enlaces cuando se están activando (clic) */
+    color: #a600ff; /* Color para los enlaces cuando se están activando (clic) */
 }
