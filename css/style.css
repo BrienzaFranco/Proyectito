@@ -1,17 +1,18 @@
 body{
-    background-color: rgb(226, 187, 230);
+    background: rgb(255,223,186); 
+    background: linear-gradient(135deg, rgba(255,223,186,1) 0%, rgba(255,179,186,1) 25%, rgba(255,150,186,1) 50%, rgba(255,123,186,1) 75%, rgba(255,93,186,1) 100%);
     max-width: 90%;
     margin: 0 auto;
     padding-top: 10px;
 }
-    
-.container {
-    width:100%;
-    margin: auto 0px;
-    background-color: antiquewhite;
-    border-radius: 20px;
-}
 
+/* rgba(255,223,186,1): Un tono suave de durazno, para comenzar el gradiente de manera ligera.
+    rgba(255,179,186,1): Un rosa pastel, agregando un poco más de saturación.
+    rgba(255,150,186,1): Un rosa más vivo, añadiendo calidez al gradiente.
+    rgba(255,123,186,1): Un rosa fuerte, para dar más contraste.
+    rgba(255,93,186,1): Un rosa brillante, para finalizar el gradiente con un color vibrante.*/
+
+    
 .top-banner {
     display: flex;
     overflow: hidden;
@@ -26,17 +27,43 @@ body{
     border-radius: 30px;
     place-self: center; /* Asegura que el contenedor se centre dentro de su celda de la grid */
 }
-
+    
 .footer {
     margin: 30px;
     box-sizing: border-box;
-    display: block;
     border-top: 1px solid #e6e6e6;
+    display: block;
     background-color: rgb(69, 0, 23);
+}
+    
+.container {
+        background: linear-gradient(135deg, 
+        rgba(255, 255, 255, 0.8) 0%,   /* Color blanco con transparencia del 80% */
+        rgba(255, 255, 255, 0.5) 50%,
+        rgba(255, 255, 255, 0.3) 100%
+    );
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+        width:100%;
+        margin: auto 0px;
+        border-radius: 20px;
+}
+
+.unas, .deco, .remocion {
+    background: linear-gradient(45deg, 
+    rgba(251, 173, 173, 0.6) 0%,   /* Blanco con transparencia del 60% */
+    rgba(252, 252, 252, 0.4) 50%,  /* Gris claro con transparencia del 40% */
+    rgba(234, 255, 2, 0.2) 100%  /* Gris más oscuro con transparencia del 20% */
+    );
+    border-radius: 10px; /* Borde redondeado, ajusta según sea necesario */
+    padding: 15px; /* Espaciado interno */
+    max-width: 70%; /* Ajusta el ancho máximo del elemento */
+    margin: 10px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra ligera */
 }
 
 .footer-content {
     color: white;
+    
 }
 
 .Gianee{display:none}
